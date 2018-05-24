@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页</title>
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+</head>
+<body>
+<header></header>
+<div class="r_container">
+    <div class="r_title">
+        <ul>
+            <li class="reg_current"><a href="#">新用户注册</a></li>
+            <li><a href="#">电视顾客注册</a></li>
+        </ul>
+        <span>我已经注册，现在就<a href="http://localhost:8080/html/login.html">登录</a></span>
+    </div>
+    <a href="#" class="r_chan">使用邮箱注册></a>
+    <div class="r_left r_left1">
+        <h3>手机注册<em>(推荐)</em></h3>        
+        
+        <form>
+            <p>
+                <span><i>*</i>手机号码：</span>
+                <input type="text" class="phone"><em class="phone_info"></em>
+            </p>
+            <p>
+                <span><i>*</i>短信验证码：</span>
+                <input type="text">
+                <button disabled="disabled">免费获取验证码</button>
+            </p>
+            <p>
+                <span><i>*</i>登录密码：</span>
+                <input type="password" class="p_pwd">
+                <em class="p_pwd_info"></em>
+            </p>
+            <p>
+                <span><i>*</i>确认登录密码：</span>
+                <input type="password" class="p_qrpwd">
+                <em class="p_qrpwd_info"></em>
+            </p>
+            <p>
+                <b>
+                    <em>弱</em>
+                    <em>中</em>
+                    <em>强</em>
+                </b>
+
+            </p>
+            <p>                
+                <input type="checkbox" class="p_check" />
+                <span>我已阅读并同意<a href="#">东方CJ网络服务使用条款</a></span>                
+            </p>
+            <p>
+                <input type="submit" value="提交注册" class="_submit" />
+            </p>
+        </form>
+    </div>
+    <div class="r_left2">
+        <h3>邮箱注册</h3>        
+        <form>
+            <p>
+                <span><i>*</i>邮箱：</span>
+                <input type="text" class="e_mail">
+                <em class="e_mail_info"></em>
+            </p>
+            <p>
+                <span><i>*</i>登录密码：</span>
+                <input type="password" class="e_pwd">
+                <em class="e_pwd_info"></em>
+            </p>
+            <p>
+                <span><i>*</i>确认登录密码：</span>
+                <input type="password" class="e_qrpwd">
+                <em class="e_qrpwd_info"></em>
+            </p>
+            <p>
+                <span><i>*</i>验证码：</span>
+                <input type="text">
+                <em><img src="../imgs/e_mail_yzm.jpg"></em>
+            </p>
+            <p>
+                <b>
+                    <em>弱</em>
+                    <em>中</em>
+                    <em>强</em>
+                </b>
+
+            </p>
+            <p>                
+                <input type="checkbox"/>
+                <span>我已阅读并同意<a href="#">东方CJ网络服务使用条款</a></span>                
+            </p>
+            <p>
+                <input type="submit" value="提交注册"/>
+            </p>
+        </form>
+    </div>
+    <div class="r_right">
+        <h6>扫一扫，关注我们</h6>
+        <dl>
+            <dt><img src="../imgs/regist_nv_qrcode1.jpg"></dt>
+            <dd>微信服务号：OCJ_FW</dd>
+            <dd>关注并绑定账户送5元积分</dd>
+        </dl>
+        <dl>
+            <dt><img src="../imgs/regist_nv_qrcode2.jpg"></dt>
+            <dd>下载移动客户端</dd>
+            <dd>新人首购TV商品最高减200元</dd>
+        </dl>
+    </div>
+</div>
+<footer></footer>
+<script type="text/javascript" src="../lib/requirejs/require.js" data-main="../js/register"></script>    
+</body>
+</html>

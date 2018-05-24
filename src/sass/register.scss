@@ -1,0 +1,322 @@
+nav,.logo_1,.s_cart{
+    display:none !important;
+}
+.logo{
+    margin-right:105px;
+}
+.logo_2{
+    background:url("../imgs/logo_3lar.jpg") no-repeat 10px 7px !important;
+}
+
+.r_container{
+    width:1190px;    
+    height:585px;
+    margin: 0 auto;
+    .r_title{
+        width:1190px;
+        height:68px;
+        background:#239cdc;
+        padding-top:4px;
+        ul{
+            width:400px;
+            height:64px;
+            float:left;
+            margin-left:60px;
+            li{
+                width:200px;
+                float:left;
+                height:64px;
+                line-height:64px;                
+                font-size:16px;
+                text-align:center;
+                a{
+                    color:#676767;
+                }
+            }
+            .reg_current{
+                background:#f6f6f6;
+                a{
+                color:#676767;
+                }
+            }
+
+        }
+        span{
+            display:inline-block;
+            float:right;
+            height:64px;
+            line-height:64px;
+            font-size:12px;
+            color:#ffeff1;
+            margin-right:375px;
+            a{
+                color:#002d45;
+            }
+        }
+    }
+    .r_chan{
+            font-size:12px;
+            color:#333333;
+            position:absolute;
+            right:405px;
+            top:240px;
+            background:url("../imgs/regist_mail_icon.png") no-repeat -1px 1px;
+            background-size:16px;
+            padding-left:18px;
+            z-index:999;
+        }
+    .r_left{
+        width:870px;
+        height:517px;
+        background: #f6f6f6;
+        float:left;
+        padding:25px 50px;
+        position:relative;
+        h3{
+            height:56px;
+            line-height:56px;
+            text-align:center;
+            font-size:28px;
+            font-weight:normal;
+            color:#3c3c3c;
+            background:url("../imgs/regist_mobile_icon.png") no-repeat 275px center;
+            border-bottom:1px dotted #666666;
+            margin-bottom:60px;
+            em{
+                font-size:16px;
+                color:#3c3c3c;
+            }
+        }
+        
+        form{
+            margin-left:85px;
+            width:420px;
+            height:320px;
+            p{
+                height:35px;
+                line-height:35px;
+                font-size:12px;
+                color:#2f313a;
+                margin-bottom:10px;
+                width:520px;
+                input{
+                    width:298px;
+                    height:33px;
+                    border:1px solid #c9c8cf;
+                }
+                span{
+                    float:left;
+                    width:110px;
+                    text-align:right;
+                    i{
+                        color:#23b2e0;
+                    }
+                }
+                em{
+                    color:red;
+                }
+            }
+            p:nth-of-type(2) {
+                input{
+                width:178px;
+                }
+                button{
+                    width:108px;
+                    height:35px;
+                    border:1px solid #c9c8cf;
+                    background:#fcfcfc;
+                    font-size:12px;
+                    color:#2f313a;
+                    margin-left:9px;
+                }
+            }
+            p:nth-of-type(5){
+                padding-left:110px;
+                b{
+                    display:inline-block;
+                    width:300px;
+                    height:35px;
+                    background:url("../imgs/r_str.jpg") no-repeat 0px 5px;
+                    em{
+                        position:relative;
+                        color:#707070;
+                        top:10px;                    
+                    }
+                    em:nth-child(1){
+                        left:27px;
+                    }
+                    em:nth-child(2){
+                        left:70px;
+                    }
+                    em:nth-child(3){
+                        left:113px;
+                    }
+                }
+            }
+            p:nth-of-type(6){
+                padding-left:110px;
+                input{
+                    width:12px;
+                    height:12px;
+                }
+                span{
+                    float:none;
+                    a:hover{
+                        text-decoration:underline;
+                    }
+                }
+            }
+            p:nth-of-type(7){
+                padding-left:110px;
+                input{
+                    background:#229cdd;
+                    color:#fff9ff;
+                }
+            }
+            
+        }
+    }
+    
+    .r_left2{
+        width:870px;
+        height:517px;
+        background: #f6f6f6;
+        float:left;
+        padding:25px 50px;
+        position:relative;
+        display:none;
+        h3{
+            height:56px;
+            line-height:56px;
+            text-align:center;
+            font-size:28px;
+            font-weight:normal;
+            color:#3c3c3c;
+            background:url("../imgs/regist_mail_icon.png") no-repeat 275px center;
+            border-bottom:1px dotted #666666;
+            margin-bottom:60px;
+            em{
+                font-size:16px;
+                color:#3c3c3c;
+            }
+        }
+        
+        form{
+            margin-left:85px;
+            width:420px;
+            height:320px;
+            p{
+                height:35px;
+                line-height:35px;
+                font-size:12px;
+                color:#2f313a;
+                margin-bottom:10px;
+                width:500px;
+                input{
+                    width:298px;
+                    height:33px;
+                    border:1px solid #c9c8cf;
+                }
+                span{
+                    float:left;
+                    width:110px;
+                    text-align:right;
+                    i{
+                        color:#23b2e0;
+                    }
+                }
+                em{
+                    color:red;
+                }
+            }
+            p:nth-of-type(3){
+                width:520px;
+            } 
+            p:nth-of-type(4) {
+                width:410px;
+                input{
+                width:178px;
+                }
+                em{
+                    float:right;
+                    width:108px;
+                    height:35px;
+                    margin-left:9px;
+                }
+            }
+            p:nth-of-type(5){
+                padding-left:110px;
+                b{
+                    display:inline-block;
+                    width:300px;
+                    height:35px;
+                    background:url("../imgs/r_str.jpg") no-repeat 0px 5px;
+                    em{
+                        position:relative;
+                        color:#707070;
+                        top:10px;                    
+                    }
+                    em:nth-child(1){
+                        left:27px;
+                    }
+                    em:nth-child(2){
+                        left:70px;
+                    }
+                    em:nth-child(3){
+                        left:113px;
+                    }
+                }
+            }
+            p:nth-of-type(6){
+                padding-left:110px;
+                input{
+                    width:12px;
+                    height:12px;
+                }
+                span{
+                    float:none;
+                    a:hover{
+                        text-decoration:underline;
+                    }
+                }
+            }
+            p:nth-of-type(7){
+                padding-left:110px;
+                input{
+                    background:#229cdd;
+                    color:#fff9ff;
+                }
+            }
+            
+        }
+    }
+    .r_right{
+        width:320px;
+        height:517px;
+        background: #c1dced;
+        float:left;
+        padding-top:25px;
+        h6{
+            height:34px;
+            line-height:34px;
+            font-size:12px;
+            color:#0e4971;
+            font-weight:normal;
+            text-align:center;
+        }
+        dl{
+            width:320px;
+            text-align:center;
+            height:195px;
+            margin-bottom:35px;
+            dt{
+                margin-bottom:12px;
+            }
+            dd{
+                font-size:12px;
+                color:#0e4971;
+                line-height:20px;
+            }
+        }
+    }
+}

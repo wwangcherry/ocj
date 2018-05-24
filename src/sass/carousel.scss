@@ -1,0 +1,55 @@
+.ww-container {
+    position: relative;
+    margin: 0 auto;
+    // border:1px solid;
+}
+.pics {
+    position: relative;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.pics li {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+}
+.pages {
+    height: 30px;
+    // background: #000;
+    // opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.pages i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #d9dadd;
+    margin:10px;
+}
+.pages i.current {
+    background: #b4b6ba;
+}
+.prev, .next {
+    width: 45px;
+    height: 100px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.next {
+    right: 0;
+}

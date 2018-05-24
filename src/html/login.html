@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/carousel.css">
+</head>
+<body>
+<header></header>
+<div class="log_container">
+    <div class="log_car"></div>
+    <div class="log_form">
+        <form>
+            <h5>登录名</h5>
+            <input type="text" placeholder="用户名/手机/邮箱" class="log_user">
+            <h5>密码</h5>
+            <input type="password" placeholder="请输入密码" class="log_pwd">
+            <h5>验证码</h5>
+            <p>
+                <input type="text" class="log_yzm">
+                <span>
+                  <img src="../imgs/log_yzmimg.jpg">  
+                </span>
+                <a href="#" class="log_c">看不清换一张</a>
+            </p>
+            <button class="log_btn">登录</button>
+            <p>
+                <label>
+                    <input type="checkbox" class="log_rem">记住登录名
+                </label>
+                <a href="#" class="log_r">免费注册</a>               
+            </p>
+            <p>
+                <em>其他登录方式:</em>
+                <span>
+                    <a href="#"><img src="../imgs/link1.gif"></a>
+                    <a href="#"><img src="../imgs/link2.gif"></a>
+                    <a href="#"><img src="../imgs/link3.png"></a>
+                    <a href="#"><img src="../imgs/link4.png"></a>
+                </span>
+            </p>
+        </form>
+    </div>
+</div>
+<footer></footer>
+<script type="text/javascript" src="../lib/requirejs/require.js" data-main="../js/login"></script>    
+</body>
+</html>

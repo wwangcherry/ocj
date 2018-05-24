@@ -1,0 +1,73 @@
+{
+    "res_code":1,
+    "res_msg":"success",
+    "res_body":{
+        "login" : {
+           "pics" : [{"src": "../imgs/login_img1.jpg" , "href" : "#"},
+                    {"src": "../imgs/login_img2.jpg" , "href" : "#"},
+                    {"src": "../imgs/login_img3.jpg" , "href" : "#"},
+                    {"src": "../imgs/login_img4.jpg" , "href" : "#"}
+                    ],
+            "width" :  450 ,
+            "height" : 300 ,
+            "changeTime" : 2000
+        },
+        "index1" : {
+           "pics" : [{"src": "imgs/index1_img1.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img2.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img3.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img4.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img5.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img6.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img7.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img8.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img9.jpg" , "href" : "#"},
+                    {"src": "imgs/index1_img10.jpg" , "href" : "#"}
+                    ],
+            "width" :  1260 ,
+            "height" : 500 ,
+            "changeTime" : 2000,
+            "prev_nextBtn" : "true"
+        },
+        "index2" : {
+           "pics" : [{"src": "../imgs/index2_img1.jpg" , "href" : "#"},
+                    {"src": "../imgs/index2_img2.jpg" , "href" : "#"},
+                    {"src": "../imgs/index2_img3.jpg" , "href" : "#"},
+                    {"src": "../imgs/index2_img4.jpg" , "href" : "#"}
+                    ],
+            "width" :  400 ,
+            "height" : 280 ,
+            "changeTime" : 2000
+        },
+        "index3" : {
+           "pics" : [{"src": "../imgs/index3_img1.jpg" , "href" : "#"},
+                    {"src": "../imgs/index3_img2.jpg" , "href" : "#"},
+                    {"src": "../imgs/index3_img3.jpg" , "href" : "#"},
+                    {"src": "../imgs/index3_img4.jpg" , "href" : "#"}
+                    ],
+            "width" :  1190 ,
+            "height" : 130 ,
+            "changeTime" : 2000
+        },
+        "index4" : {
+           "pics" : [{"src": "../imgs/index4_img1.jpg" , "href" : "#"},
+                    {"src": "../imgs/index4_img2.jpg" , "href" : "#"},
+                    {"src": "../imgs/index4_img3.jpg" , "href" : "#"}
+                    ],
+            "width" :  288 ,
+            "height" : 340 ,
+            "changeTime" : 2000
+        },
+        "index5" : {
+           "pics" : [{"src": "../imgs/fl6_car_img1.jpg" , "href" : "#"},
+                    {"src": "../imgs/fl6_car_img2.jpg" , "href" : "#"},
+                    {"src": "../imgs/fl6_car_img3.jpg" , "href" : "#"},
+                    {"src": "../imgs/fl6_car_img4.jpg" , "href" : "#"}
+                    ],
+            "width" :  288 ,
+            "height" : 340 ,
+            "changeTime" : 2000
+        }
+        
+    }
+}

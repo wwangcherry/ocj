@@ -57,8 +57,13 @@ gulp.task("copy-mock", function(){
     gulp.src("src/mock/**/*.*")
         .pipe(gulp.dest("dist/mock"));
 });
+// 复制iconfont
+gulp.task("copy-iconfont", function(){
+    gulp.src("src/iconfont/**/*.*")
+        .pipe(gulp.dest("dist/iconfont"));
+});
 
-gulp.task("copy", ["copy-lib", "copy-imgs", "copy-mock"]);
+gulp.task("copy", ["copy-lib", "copy-imgs", "copy-mock","copy-iconfont"]);
 
 // 监视任务
 gulp.task("watch", function(){

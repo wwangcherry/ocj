@@ -1,0 +1,129 @@
+nav,.logo_1,.s_cart{
+    display:none !important;
+}
+.logo{
+    margin-right:105px;
+}
+.logo_2{
+    background:url("../imgs/logo_3lar.jpg") no-repeat 10px 7px !important;
+}
+
+.log_container{
+    width:880px;
+    height:515px;
+    padding-top:50px;
+    // background:pink;
+    margin:0 auto;
+    .log_car{
+        width:450px;
+        height:300px;
+        float:left;
+        margin-top:35px;
+    }
+    .log_form{
+        width:360px;
+        height:380px;
+        float:right;
+        border:5px solid #f7f7f7;
+         form{
+            width:350px;
+            height:370px;
+            border:1px solid #e7e7e7;
+            padding: 0 38px;
+            h5{
+                height:35px;
+                line-height:40px;               
+            }
+            .log_user{
+                width:235px;
+                height:38px;
+                padding-left:35px;
+                background:url("../imgs/user_bg.jpg") no-repeat 6px center;
+                border:1px solid #c9c8cf;            }
+            .log_pwd{
+                width:235px;
+                height:38px;
+                padding-left:35px;
+                background:url("../imgs/pwd_bg.jpg") no-repeat 6px center;
+                border:1px solid #c9c8cf;  
+            }
+            p{
+                height:38px;
+                font-size:12px;
+                .log_yzm{
+                    width:110px;
+                    height:38px;
+                    float:left;
+                    border:1px solid #c9c8cf; 
+                }
+                span{
+                    display:inline-block;
+                    width:65px;
+                    height:38px;
+                    float:left;
+                    margin-left:10px;
+                    img{
+                        width:65px;
+                        height:38px;   
+                    }
+                }
+                .log_c{
+                    display:inline-block;
+                    width:40px;
+                    height:38px;
+                    color:#333333;
+                    float:right;
+                    margin-right:10px;
+                }
+                .log_r{
+                    float:right;
+                    color:#0080c6;
+                }
+            }
+            p:nth-of-type(2){
+                line-height:38px;
+                border-bottom:1px dotted #737373;
+                label{
+                   input{
+                    position:relative;
+                    top:2px;
+                    } 
+                }
+                
+            }
+            .log_btn{
+                width:270px;
+                height:38px;
+                border:none;
+                background:#de2b3e;
+                margin-top:15px;
+                color:#fffdfd;
+            }
+            p:nth-of-type(3){
+                height:50px;
+                line-height:50px;
+                em{
+                    font-size:12px;
+                    color:#a4a4a4;
+                }
+                span{
+                    // float:left;
+                    display:inline-block;
+                    float:right;
+                    width:112px;
+                    padding-top:3px;
+                    a{
+                        display:inline-block;
+                        float:left;
+                        margin-left:12px;
+                        img{
+                            width:15px;
+                            height:18px;
+                        }
+                    }
+                }
+            }
+        }   
+    }
+    
+}

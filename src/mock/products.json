@@ -1,0 +1,56 @@
+{
+    "res_code":1,
+    "res_msg":"success",
+    "res_body":{
+        "fl1r" :[
+            {"id" : 1 ,"img" : "/imgs/fl1r_img1.jpg" , "a" : "[新品发布]黛丝恩 植萃奢华损伤修护洗护套组(日本原装进口)" , "span" : "￥298"},
+            {"id" : 2 ,"img" : "/imgs/fl1r_img2.jpg" , "a" : "森田玻尿酸复合面膜（加赠玻尿酸黑面膜）" , "span" : "￥298"},
+            {"id" : 3 ,"img" : "/imgs/fl1r_img3.jpg" , "a" : "慕典 定制成品窗帘（限4m以内墙面）" , "span" : "￥1680"},
+            {"id" : 4 ,"img" : "/imgs/fl1r_img4.jpg" , "a" : "富士通(Fujitsu) 将军正1.5匹（原价购买）全直流变频KFR-" , "span" : "￥3099"},
+            {"id" : 5 ,"img" : "/imgs/fl1r_img5.jpg" , "a" : "[新品发布]forone by yokee 许愿18K金海水珍珠项链坠" , "span" : "￥998"},
+            {"id" : 6 ,"img" : "/imgs/fl1r_img6.jpg" , "a" : "双立人 独具匠心锅刀套组" , "span" : "￥1998"}
+        ],
+        "fl2r" : [
+          {"id" : 7 ,"img" : "/imgs/fl2_2.jpg" , "a" : "沪芳 鲜汁咸草鸡特惠组合" , "span" : "￥105" ,"del" : 120},
+          {"id" : 8 ,"img" : "/imgs/fl2_3.jpg" , "a" : "蓓琳娜 西班牙进口葡萄籽油1Lx2瓶装" , "span" : "￥125","del" : 149},
+          {"id" : 9 ,"img" : "/imgs/fl2_4.jpg" , "a" : "梅香 咸蛋皮蛋60枚混装礼盒装" , "span" : "￥178","del" : 238}
+        ],
+        "fl3r" : [
+          {"id" : 10 ,"img" : "/imgs/fl3r_img1.jpg" , "a" : "蔻驰(COACH) 帆布饺子包卡其褐色(F57830IMC7C)" , "span" : "￥856"},
+          {"id" : 11 ,"img" : "/imgs/fl3r_img3.jpg" , "a" : "EAORON 黑面膜125g" , "span" : "￥102","del" : 256},
+          {"id" : 12 ,"img" : "/imgs/fl3r_img2.jpg" , "a" : "奥尔滨(ALBION) 健康水330ml" , "span" : "￥570"}
+        ],
+        "fl5r" : [
+          {"id" : 13 ,"img" : "/imgs/fl5_1.jpg" , "a" : "[吃货节]阿格利司 特级出渣橄榄油5000ml组合" , "span" : "￥389","del" : 476},
+          {"id" : 14 ,"img" : "/imgs/fl5_2.jpg" , "a" : "农百鲜（NONBASY）散养童子鸡750g*4 加赠童子鸡" , "span" : "￥188","del" : 238},
+          {"id" : 15 ,"img" : "/imgs/fl5_3.jpg" , "a" : "（新鲜进口）probiotics story原装进口丹麦乳" , "span" : "￥888"},
+          {"id" : 16,"img" : "/imgs/fl5_4.jpg" , "a" : "[爱家日]新生命 鱼油磷脂100粒（3+3）养生组合" , "span" : "￥238","del" : 288},
+          {"id" : 17 ,"img" : "/imgs/fl5_5.jpg" , "a" : "晓芹 大连晓芹淡干海参100克礼盒装（25-30头）" , "span" : "￥1288"},
+          {"id" : 18 ,"img" : "/imgs/fl5_6.jpg" , "a" : "[吃货节]拉美奥 新西兰原产牛腩500g*2+牛腱500g*2" , "span" : "￥148","del" : 188},
+          {"id" : 19 ,"img" : "/imgs/fl5_7.jpg" , "a" : "恒寿堂 恒寿堂牌金乳钙划算装（金乳钙120片*3+金乳钙10）" , "span" : "￥258"},
+          {"id" : 20 ,"img" : "/imgs/fl5_8.jpg" , "a" : "劲农 东北五常长粒香大米5kg/袋*4袋" , "span" : "￥198","del" : 218}
+        ],
+        "cart_tj" :  [
+          {"id" : 13 ,"img" : "/imgs/fl5_1.jpg" , "a" : "[吃货节]阿格利司 特级出渣橄榄油5000ml组合" , "span" : "￥389","del" : 476},
+          {"id" : 14 ,"img" : "/imgs/fl5_2.jpg" , "a" : "农百鲜（NONBASY）散养童子鸡750g*4 加赠童子鸡" , "span" : "￥188","del" : 238},
+          {"id" : 15 ,"img" : "/imgs/fl5_3.jpg" , "a" : "（新鲜进口）probiotics story原装进口丹麦乳" , "span" : "￥888"},
+          {"id" : 16,"img" : "/imgs/fl5_4.jpg" , "a" : "[爱家日]新生命 鱼油磷脂100粒（3+3）养生组合" , "span" : "￥238","del" : 288},
+          {"id" : 17 ,"img" : "/imgs/fl5_5.jpg" , "a" : "晓芹 大连晓芹淡干海参100克礼盒装（25-30头）" , "span" : "￥1288"},
+           {"id" : 18 ,"img" : "/imgs/fl5_6.jpg" , "a" : "[吃货节]拉美奥 新西兰原产牛腩500g*2+牛腱500g*2" , "span" : "￥148","del" : 188}
+        ],
+        "fl6r" : [
+          {"id" : 21 ,"img" : "/imgs/fl6_img1.jpg" , "a" : "[迎春好礼]米技(MIJI) 银色小炉宝回馈套组(原价购买)" , "span" : "￥1498"},
+          {"id" : 22 ,"img" : "/imgs/fl6_img2.jpg" , "a" : "艾多 冰箱保鲜带盖收纳盒6只装" , "span" : "￥129"},
+          {"id" : 23 ,"img" : "/imgs/fl6_img3.jpg" , "a" : "空间优品 牛津布收纳箱66L方格三色6件套" , "span" : "￥219","del" : 399},
+          {"id" : 24,"img" : "/imgs/fl6_img4.jpg" , "a" : "金加瀛二合一桑蚕长丝贡被*2（220*240,1000克+2" , "span" : "￥2688"},
+          {"id" : 25 ,"img" : "/imgs/fl6_img5.jpg" , "a" : "[爱家日]富培美 水精灵8+8+6超值回馈" , "span" : "￥99","del" :108},
+          {"id" : 26 ,"img" : "/imgs/fl6_img6.jpg" , "a" : "[双立人加赠100积分]【电视团购】双立人TWIN Point鸿运当头" , "span" : "￥799"},
+          {"id" : 27 ,"img" : "/imgs/fl6_img7.jpg" , "a" : "猫猫 澳洲进口羊毛羊毛被+羊毛床垫(五尺床组)" , "span" : "￥1058"},
+          {"id" : 28 ,"img" : "/imgs/fl6_img8.jpg" , "a" : "SIMELO 印象京都系列高真空大师焖烧锅4.5L(帝王金)" , "span" : "￥1028"}
+        ]
+       
+    }
+}
+
+
+       

@@ -1,0 +1,237 @@
+nav,.logo_1,.s_cart{
+    display:none !important;
+}
+.logo{
+    margin-right:105px;
+}
+.logo_2{
+    background:url("../imgs/logo_3lar.jpg") no-repeat 10px 7px !important;
+}
+
+.c_title{
+    width:1190px;
+    height:100px;
+    margin:0 auto;
+    position:relative;
+    .c_cart{
+        width:197px;
+        height:64px;
+        background:url("../imgs/cart_01.jpg") no-repeat;
+        float:left;
+        margin-top:10px;
+    }
+    .c_status{
+        width:740px;
+        height:64px;
+        background:url("../imgs/cart_status.jpg") no-repeat;
+        float:right;
+        margin-top:30px;
+    }
+    .c_amount{
+        width:38px;
+        height:24px;
+        color:#ffffff;
+        border-radius:15px;
+        text-align:center;
+        font-size:16px;
+        line-height:24px;
+        background:#ff5400;
+        position:absolute;
+        top:8px;
+        left:75px;
+    }
+}
+.c_title2{
+    width:1190px;
+    height:45px;
+    border:1px solid #e1e4e6;
+    margin:0 auto;
+    margin-bottom:15px;
+    padding:0 15px;
+    line-height:45px;
+    font-size:12px;
+    background:url("../imgs/zhibiao.jpg") no-repeat 10px center;
+    ul{
+        float:left;
+        height:45px;
+        li{
+            height:45px;
+            float:left;
+            margin-left:25px;
+            padding-left:18px;
+            a{
+                color:#239cdc;
+                font-weight:600;
+                font-size:16px;
+            }
+        }
+        li:nth-child(1){
+            background:url("../imgs/jifen.jpg") no-repeat left 18px;
+        }
+        li:nth-child(2){
+            background:url("../imgs/yufu.jpg") no-repeat left 18px;
+        }
+        li:nth-child(3){
+            background:url("../imgs/diyong.jpg") no-repeat left 19px;
+        }
+    }
+    span{
+        float:right;
+        a{
+            color:#08a2f2;
+            text-decoration:underline;
+        }
+    }
+}
+table{
+    width:1190px;
+    margin:0 auto;
+    font-size:12px;
+    border-collapse:collapse;
+    thead{
+        tr{
+            height:40px;
+           th{
+            font-weight:normal;
+            background:#f7f7f7 url("../imgs/table_bg.jpg") no-repeat left top;
+            width:115px;
+            text-align:center;
+            }
+        }
+    }
+    tbody{
+        tr{
+            height:40px;
+            border-bottom:1px solid #f7f7f7;
+            td{
+                text-align:center;
+                .minus,.add{
+                    display:inline-block;
+                    cursor: pointer;
+                    background: #ebebeb;
+                    width:20px;
+                    height:25px;
+                    position:relative;
+                    line-height:25px;
+                    z-index:999;
+                }
+                .minus{
+                    right:-20px;
+                    top:13px;
+                }
+                .add{
+                    right:-32px;
+                    top:-13px;
+                }
+                .amount{
+                    text-align:center;
+                    width:70px;
+                    height:25px;
+                    border:1px solid #a7a6ac;
+                    position:relative;
+                    top:13px;
+                    right:5px;
+                }
+            }
+            .imgs{
+                width:40px;
+                height:40px;
+            }
+            .desc{
+                background: url("../imgs/tvshanpin.jpg") no-repeat 50px 7px;
+            }
+            .sub{
+                color:#ea0589;
+            }
+            .amount{
+                color:#84878c;
+            }
+        }
+    } 
+    tfoot{
+        tr{
+            height:50px;
+            line-height:50px;
+            border-bottom:1px solid #f7f7f7;
+            text-align:center;
+        }
+    }  
+}
+.c_sub_form{
+    width:150px;
+    height:40px;
+    background: #ff7910;
+    text-align:center;
+    font-size:22px;
+    border:1px solid #ff6c00;
+    position:relative;
+    top:3px;
+    right:0px;
+    color:#ffffff;
+}
+.c_tuijian{
+    width:1190px;
+    height:320px;
+    border:1px solid #c6c9cc;
+    margin:20px auto;
+    h4{
+        height:35px;
+        line-height:35px;
+        font-size:14px;
+        padding-left:20px;
+    }
+        .c_t_btm{
+            padding-left:50px;
+            dl{
+                    width:160px;
+                    height:250px;
+                    border:1px solid #e8e6e6;
+                    margin-left:20px;
+                    background:#ffffff;
+                    float:left;
+                    margin-bottom:10px;
+                    dt{
+                        width:158px;
+                        height:143px;
+                        img{
+                            width:158px;
+                            height:143px; 
+                        }
+                    }
+                    dd{
+                        padding-left:12px;
+                        a{
+                            display:block;
+                            color:#333333;
+                            font-size:12px;
+                            margin-bottom:15px;
+                        }
+                        span{
+                           font-size:14px;
+                            font-weight:600;
+                            color:#ea0505; 
+                        }
+                        del{
+                            font-size:12px;
+                            color:#bbbbbb;
+                        }
+                        .in_add{
+                            width:78px;
+                            height:20px;
+                            border:1px solid #d8d8d8;
+                            line-height:20px;
+                            text-align:center;
+                            background: #f7f7f7;
+                            clor:#333333;
+                            float:right;
+                            margin-right:10px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                dl:hover{
+                    border:1px solid red;
+                }
+            }
+      
+}
